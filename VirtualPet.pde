@@ -16,12 +16,12 @@ void draw(){
  ellipse(250, 250, 375, 250);
  //Make the eyes
  fill(#FFFFFF);
- circle(170, 200, 80);
- circle(320, 200, 80);
+ ellipse(170, 200, 80,80);
+ ellipse(320, 200, 80,80);
  //Make the pupils
  fill(0, 0, 0);
- circle(162.5, 182.5, 40);
- circle(330, 210, 40);
+ ellipse(162.5, 182.5, 40,40);
+ ellipse(330, 210, 40,40);
  //Add the name
  textSize(35);
  text("This is Rocky, the rock.", 50, 50);
